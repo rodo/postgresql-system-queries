@@ -1,0 +1,9 @@
+{ "clusters": [
+    {"version": 9.6, "port": 5432, "user": "rodo"},
+
+    {"version": 11, "port": 5435, "user": "rodo"},
+    {"version": 12, "port": 5434, "user": "rodo"},
+    {"version": 13, "port": 5433, "user": "rodo"}
+]
+
+}
