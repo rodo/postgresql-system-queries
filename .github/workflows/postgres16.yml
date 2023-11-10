@@ -28,9 +28,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-    steps:
-      # install psql
-      - run: |
+      - name : install psql
+        run: |
           apt-get update
           apt-get install --yes --no-install-recommends postgresql-client
 
